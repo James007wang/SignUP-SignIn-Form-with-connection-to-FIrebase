@@ -3,8 +3,13 @@ import {getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/fire
 import{getFirestore, getDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
 
 const firebaseConfig = {
-    //YOUR COPIED FIREBASE PART SHOULD BE HERE
- //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
+    apiKey: "AIzaSyBFBrwtnWSlBsVyn9JkUPQ8Kv-qCVnAV9A",
+    authDomain: "balmy-platform-423519-j4.firebaseapp.com",
+    projectId: "balmy-platform-423519-j4",
+    storageBucket: "balmy-platform-423519-j4.appspot.com",
+    messagingSenderId: "825233968869",
+    appId: "1:825233968869:web:bbc4c065c3c28b08254e0c",
+    measurementId: "G-H9ST35XH3D"
   };
  
   // Initialize Firebase
